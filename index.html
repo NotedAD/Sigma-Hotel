@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <title>Sigma | Главная</title>
+</head>
+<body>
+    <header class="menu">
+        <div class="info-company">
+            <div class="phone-company"> 
+                <img src="./img/Main/phone.png" alt="Phone" class="img-phone">
+                <div class="phone">(29)14882288</div>
+            </div>
+            <div class="mail-company">
+                <img src="./img/Main/mail.png" alt="Mail" class="mail-img">
+                <div class="mail-text">sigmahotel@gmail.com</div>
+            </div>
+        </div>
+        <div class="link-logo-menu">
+            <h1 class="logo-text">Sigma</h1>
+            <ul class="link-page">
+                <li><a href="">Главная</a></li> <!-- Ссылка на главное меню -->
+                <li><a href="./pages/room.html">Комнаты</a></li>
+                <li><a href="./pages/aboutus.html">О нас</a></li>
+                <li><a href="./pages/contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <div class="info-hotel">
+            <div class="info-text">
+                <span class="header-info-text">Sigma - лучший<br>среди отелей</span><br><br>Здесь вы можете провести<br>свои каникулы с комфортом.
+            </div>
+            
+            <form action="" class="hotel-booking">
+                <div class="header-hotel-booking">Бронирование Отеля</div>
+                <div class="btn-hotel-booking">
+                    <label for="date-reg">Дата заселения:</label>
+                    <input type="date" name="date-reg" id="" class="info-box">
+                    <label for="date-out">Дата выселения:</label>
+                    <input type="date" name="date-out" id=""  class="info-box">
+                    <label for="cbb-numb-clie">Количество гостей:</label>
+                    <select name="cbb-numb-clie" id="" class="info-box">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                    </select>
+                    <label for="cbb-numb-room">Количество комнат:</label>
+                    <select name="cbb-numb-room" id="" class="info-box">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                    </select>
+                    <label for="cbb-class-room">Класс комнаты:</label>
+                    <select name="cbb-class-room" id="" class="info-box">
+                        <option value="">1</option>
+                        <option value="">2</option>
+                    </select>
+                    <button type="submit" class="submit">Забронировать</button>
+                </div>
+            </div>
+        </form>
+    </main>
+</body>
+</html>

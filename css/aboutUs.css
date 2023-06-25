@@ -1,0 +1,77 @@
+@font-face {
+    font-family: Rubik;
+    src: url(../font/Rubik-VariableFont_wght.ttf);
+    font-family: Open Sans;
+    src: url(../font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+body{
+    font-family: Rubik, sans-serif;
+    overflow: hidden;
+}
+.about-us{
+    font-weight: 700;
+    font-size: 55px;
+    text-align: center;
+}
+.about-us-main{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/About\ us/background.png);
+    background-repeat: no-repeat;
+}
+.info-about-hotel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-about-us{
+    font-weight: 300;
+    font-size: 40px;
+    color: #FFE5B4;
+}
+.welcome{
+    margin-top: 3em;
+    font-weight: 400;
+    font-size: 45px;
+    margin-bottom: .5em;
+}
+.text-info-hotel{
+    margin-top: 0;
+    margin-bottom: 5em;
+    font-size: 30px;
+}
+.hotel-its{
+    width: 100%;
+}
+.text-plus-hotel{
+    margin-left: 2em;
+    font-weight: 300;
+    font-size: 45px;
+    color: #FFE5B4;
+    text-shadow: 
+    -0   -2px 0   #000000,
+     0   -2px 0   #000000,
+    -0    2px 0   #000000,
+     0    2px 0   #000000,
+    -2px -0   0   #000000,
+     2px -0   0   #000000,
+    -2px  0   0   #000000,
+     2px  0   0   #000000,
+    -1px -2px 0   #000000,
+     1px -2px 0   #000000,
+    -1px  2px 0   #000000,
+     1px  2px 0   #000000,
+    -2px -1px 0   #000000,
+     2px -1px 0   #000000,
+    -2px  1px 0   #000000,
+     2px  1px 0   #000000,
+    -2px -2px 0   #000000,
+     2px -2px 0   #000000,
+    -2px  2px 0   #000000,
+     2px  2px 0   #000000,
+    -2px -2px 0   #000000,
+     2px -2px 0   #000000,
+    -2px  2px 0   #000000,
+     2px  2px 0   #000000;
+}

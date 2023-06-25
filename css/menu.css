@@ -1,0 +1,100 @@
+@font-face {
+  font-family: Rubik;
+  src: url(../font/Rubik-VariableFont_wght.ttf);
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.menu{
+  font-family: Rubick, sans-serif;
+  width: 100%;
+  background-color: #FFE5B4;
+}
+
+.info-company{
+  display: flex;
+}
+
+.phone-company, .mail-company{
+  padding: .8em 0;
+  font-weight: 600;
+}
+
+.phone-company{
+  display: flex;
+  width: 18.5%;
+  border-bottom: 2px solid #000;
+  border-right: 2px solid #000;
+  justify-content: end;
+  padding-right: 3em;
+}
+
+.img-phone{
+  margin-right: 1em;
+}
+
+.phone{
+  display: flex;
+  align-items: center;
+  margin-right: 2em;
+}
+
+.mail-company{
+  display: flex;
+  width: 85%;
+  border-bottom: 2px solid #000;
+  padding-left: 2em;
+  text-align: center;
+
+}
+
+.mail-text{
+  display: flex;
+  margin-left: 1.5em;
+  align-items: center;
+}
+
+.link-logo-menu{
+  display: flex;
+}
+
+.logo-text{
+  width: 15%;
+  font-size: 50px;
+  font-weight: 400;
+  margin-right: 3em;
+  display: flex;
+  justify-content: end;
+}
+
+.link-page{
+  display: inline-flex;
+  justify-content: end;
+  align-items: center;
+  width: 70%;
+  list-style-type: none;
+}
+
+.link-page > li > a{
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+}
+
+.link-page > li > a:hover{ 
+  color: red; /* цвет ссылки при наведении */
+}
+
+.link-page >  li{
+  display: inline;
+  margin-left: 3em;
+}
+
+.link-page >  li:last-of-type{
+  margin-right: 10em;
+}
+

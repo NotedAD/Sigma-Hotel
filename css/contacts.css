@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Rubik;
+    src: url(../font/Rubik-VariableFont_wght.ttf);
+    font-family: Open Sans;
+    src: url(../font/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+body{
+    overflow: hidden;
+}
+main{
+    font-family: Rubik, sans-serif;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #FFE5B4;
+}
+h1{
+    text-align: center;
+    font-family: Rubik, sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+}
+textarea{
+    margin-top: 2em;
+    border: 0;
+    width: 90%;
+    font-size: 30px;
+    font-family: Rubik, sans-serif;
+    resize: none;
+    color: rgba(0, 0, 0, 0.3);
+}
+.contact-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-info-text{
+    margin-left: 8em;
+    width: 50%;
+}
+.contact-info-header{
+    font-size: 55px;
+    line-height: 65px;
+}
+.adress{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+}
+.contact-phone, .mail{
+    font-size: 35px;
+    font-weight: 300;
+}
+.txt-box{
+    margin-top: 3.5em;
+    border: 0;
+    width: 35%;
+    line-height: 70px;
+    font-size: 30px;
+    font-family: Rubik, sans-serif;
+    color: rgba(0, 0, 0, 0.3);
+}
+.txt-box-mail{
+    margin-right: 3em;
+}
+.form-contact{
+    width: 50%;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+.btn-send{
+    background-color: inherit;
+    border: 0;
+    font-family: Rubik, sans-serif;
+    font-weight: 700;
+    font-size: 55px;
+    margin-top: 1.5em;
+    width: 20%;
+}
+.btn-send:hover{
+    color: gray;
+}
